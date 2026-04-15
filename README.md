@@ -1,6 +1,6 @@
 # OpenBindings Homebrew Tap
 
-Homebrew formulae for [OpenBindings](https://openbindings.com) tools.
+Homebrew casks for [OpenBindings](https://openbindings.com) tools.
 
 ## Install
 
@@ -8,8 +8,8 @@ Homebrew formulae for [OpenBindings](https://openbindings.com) tools.
 brew install openbindings/tap/ob
 ```
 
-## Available Formulae
+## Available Casks
 
-| Formula | Description |
-|---------|-------------|
+| Cask | Description |
+|------|-------------|
 | `ob` | The OpenBindings CLI |
