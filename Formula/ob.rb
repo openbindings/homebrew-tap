@@ -11,7 +11,7 @@ class Ob < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/openbindings/ob/releases/download/v0.1.0/ob_0.1.0_darwin_amd64.tar.gz"
-      sha256 "0cadeff93e559579d40a11827849b98a4325d83f2e0d091c0d047c71234b972e"
+      sha256 "069d747eeac4000918a908c033dd956fd565a030a4942b1ab364ccf032ad15ed"
 
       def install
         bin.install "ob"
@@ -19,7 +19,7 @@ class Ob < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/openbindings/ob/releases/download/v0.1.0/ob_0.1.0_darwin_arm64.tar.gz"
-      sha256 "da54ac6cb4f54da7450731fd62409b2a7dbd8d8a2134fbe8de7a2099519cad63"
+      sha256 "ad83f835f66ecee16ba193e6cdb704b82ad73971bb91fe4586bc459da6666ec9"
 
       def install
         bin.install "ob"
@@ -30,14 +30,14 @@ class Ob < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/openbindings/ob/releases/download/v0.1.0/ob_0.1.0_linux_amd64.tar.gz"
-      sha256 "c3b0272857aef774ec86a2f65764f503288a113ed603cb7de9ffbd8e4d05119d"
+      sha256 "f78cd5b5420603770f4505cf77a37d57c4491964a08ff4034642d01eba7fb313"
       def install
         bin.install "ob"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/openbindings/ob/releases/download/v0.1.0/ob_0.1.0_linux_arm64.tar.gz"
-      sha256 "aad0a61fdc6e7ed99d8c982209a2e5405b87da601a1f42a282c2bc7f51c4826d"
+      sha256 "c7d441be6a5d527acd084dfd761eb82cad8160ad4d71d3d265c3b497afd641a1"
       def install
         bin.install "ob"
       end
